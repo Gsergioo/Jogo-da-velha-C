@@ -105,7 +105,7 @@ int main(){
         else
             printf("Empate!\n");
         fflush(stdin);
-        printf("Quer continuar?[s/n]");
+        printf("Quer continuar?[S/N]");
         scanf("%c", &repeat);
         if(repeat=='n' || repeat=='N')
             break;
